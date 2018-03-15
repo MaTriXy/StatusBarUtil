@@ -1,8 +1,7 @@
 # StatusBarUtil
 [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-StatusBarUtil-green.svg?style=true)](https://android-arsenal.com/details/1/3341)
 
-[![Download](https://api.bintray.com/packages/laobie/maven/statusbarutil/images/download.svg) ](https://bintray.com/laobie/maven/statusbarutil/_latestVersion)
-
+[ ![Download](https://api.bintray.com/packages/laobie/maven/StatusBarUtil/images/download.svg) ](https://bintray.com/laobie/maven/StatusBarUtil/_latestVersion)
 
 A util for setting status bar style on Android App. It can work above API 19(KitKat 4.4).
 
@@ -17,15 +16,17 @@ A util for setting status bar style on Android App. It can work above API 19(Kit
 
 ### ChangeLog 
 
-[Click Me](ChangeLog.md)
+[CLICK ME](CHANGE_LOG.md)
 
 ### Usage
 
 1. Add the dependencies to your build.gradle file, StatusBarUtil is avaiable in JCenter:
 
    ```groovy
-   compile 'com.jaeger.statusbaruitl:library:1.3.6'
+   compile 'com.jaeger.statusbarutil:library:1.5.0'
    ```
+
+   I fixed typo, change "statusbaruitl" to "statusbarutil", please notice this.
 
 2. Call method you need after `setContentView()`,  such as :
 
@@ -156,6 +157,15 @@ A util for setting status bar style on Android App. It can work above API 19(Kit
     StatusBarUtil.setTranslucentForImageView(Activity activity, int statusBarAlpha, View needOffsetView)
   ```
    ![](img/set_for_image_view_page.png)
+
+
+- Set Light or Dark mode
+
+  ```
+    StatusBarUtil.setLightMode(Activity activity)
+    StatusBarUtil.setDarkMode(Activity activity)
+  ```
+    ![](img/switch_light_mode.jpeg)
 
 - Use in fragment
 

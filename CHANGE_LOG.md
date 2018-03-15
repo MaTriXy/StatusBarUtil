@@ -1,8 +1,17 @@
 ## Change Log
 
+### 1.5.0
+
+add set light/dark mode method
+
+### 1.4.0
+
+fix typo
+
 ### 1.3.6
 
 - bug fix and remove StatusBarView
+
 ### 1.3.5
 
 - add method `hideFakeStatusBarView` to hide fake StatusBarView
